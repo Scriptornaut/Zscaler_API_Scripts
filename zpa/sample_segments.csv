@@ -1,0 +1,7 @@
+NAME,DESCRIPTION,ENABLED,SEGMENT_GROUP_ID,SERVER_GROUP_IDS,DOMAINS,TCP_PORTS,UDP_PORTS,DOUBLE_ENCRYPT
+Simple Web App,"A basic web server",TRUE,"LabCloud_SG","Web Servers","webapp.example.com","443,80",,FALSE
+Shared Internal Tool,"Tool for multiple departments",TRUE,"LabCloud_SG","App Servers","tool.internal,assets.internal","8080",,FALSE
+Decommed App,"App to be removed",FALSE,"LabCloud_SG","Old Web Servers","oldapp.example.com","80",,FALSE
+Monitoring Dashboard,"Grafana dashboard for monitoring",TRUE,"LabCloud_SG","Monitoring Servers","monitoring.internal","3000,9090",,FALSE
+SFTP Server,"Secure file transfer",TRUE,"LabCloud_SG","File Servers","192.168.100.10","22",,TRUE
+HR Portal,"HR system with multiple components",TRUE,"LabCloud_SG","HR Web Servers,HR API Servers,HR DB Servers","hr.example.com,api.hr.example.com","443,8443,5432",,FALSE
